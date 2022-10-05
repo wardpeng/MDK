@@ -1,0 +1,9 @@
+{
+    "Service": "/S4J/Services/s4j.service",
+    "_Type": "Action.Type.OfflineOData.Upload",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnSuccess": "/S4J/Actions/Service/DownloadStartedMessage.action",
+    "OnFailure": "/S4J/Actions/Service/SyncFailureMessage.action"
+}

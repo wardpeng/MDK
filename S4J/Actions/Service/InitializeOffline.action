@@ -1,0 +1,12 @@
+{
+    "Service": "/S4J/Services/s4j.service",
+    "DefiningRequests": [],
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Downloading...",
+    "ActionResult": {
+        "_Name": "init"
+    },
+    "OnSuccess": "/S4J/Actions/Service/InitializeOfflineSuccessMessage.action",
+    "OnFailure": "/S4J/Actions/Service/InitializeOfflineFailureMessage.action"
+}

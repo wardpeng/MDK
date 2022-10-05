@@ -1,0 +1,6 @@
+{
+	"DestinationName": "s4j",
+	"OfflineEnabled": true,
+	"SourceType": "Mobile",
+	"RestService": false
+}

@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ApplicationUpdate",
+    "ActionResult": {
+        "_Name": "AppUpdate"
+    },
+    "OnFailure": "/S4J/Rules/AppUpdateFailure.js",
+    "OnSuccess": "/S4J/Rules/AppUpdateSuccess.js"
+}

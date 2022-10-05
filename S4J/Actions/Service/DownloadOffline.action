@@ -1,0 +1,10 @@
+{
+    "Service": "/S4J/Services/s4j.service",
+    "DefiningRequests": [],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/S4J/Actions/Service/SyncFailureMessage.action",
+    "OnSuccess": "/S4J/Rules/ErrorArchive/ErrorArchive_CheckForSyncError.js"
+}

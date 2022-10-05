@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.OfflineOData.Close",
+    "Service": "/S4J/Services/s4j.service",
+    "Force": true,
+    "ActionResult": {
+        "_Name": "close"
+    },
+    "OnSuccess": "/S4J/Actions/Service/CloseOfflineSuccessMessage.action",
+    "OnFailure": "/S4J/Actions/Service/CloseOfflineFailureMessage.action"
+}
